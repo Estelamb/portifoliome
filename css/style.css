@@ -74,8 +74,6 @@ body{
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
 /* Facebook */
 .fa-facebook {
   color: white;
@@ -89,4 +87,24 @@ body{
 /* GitHub */
 .fa-github {
   color: white;
+}
+
+.material-icons{
+    color: #F08080;
+}
+
+.entradaSobre{
+  background-color: #FAEBD7;
+}
+
+nav{
+  background-color: #FAEBD7;
+}
+
+.page-footer{
+  background-color: #CD5C5C;
+}
+
+.parallax-container-portifolio{
+  background-image: linear-gradient(to right, #CD5C5C, #FAEBD7);
 }
