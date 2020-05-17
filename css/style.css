@@ -19,22 +19,6 @@ p {
   color: #26a69a;
 }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -81,7 +65,7 @@ body{
 }
 
 .material-icons{
-    color: #CD5C5C;
+    color: white;
 }
 
 .entradaSobre{
@@ -95,6 +79,10 @@ body{
 
 nav{
   background-color: #FFE4E1;
+}
+
+.material-icons{
+  color: #CD5C5C;
 }
 
 .page-footer{
@@ -153,4 +141,12 @@ nav{
 
 .portfolio h2{
   text-align: center;
+}
+
+/* Configuração Contato */
+.contato {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 6em;
 }
