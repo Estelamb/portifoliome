@@ -191,12 +191,30 @@
         </div>
 
         <div class="col s12 m8">
-          <form name="form" method="post" action="http://seudominio.com.br/cgi-sys/FormMail.cgi">
-          Nome: <input type="text" name="nome"><br>
-          Telefone: <input type="text" name="telefone"><br>
-          <input type=hidden name="recipient" value="fulano@seudominio.com.br">
-          <input type=hidden name="subject" value="titulo do email">
-          <input type=hidden name="redirect" value="http://seudominio.com.br/pagina_de_obrigado.html">
+          <p>Entre em contato comigo, me enviando uma mensagem!</p>
+          <br>
+          <br>
+          
+          <form name="form" method="post" action="https://estelamb.github.io/PortfolioMe/">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="input_text" type="text" data-length="50">
+                <label for="input_text">Nome</label>
+              </div>
+            <div class="input-field col s6">
+              <input id="input_text" type="text" data-length="30">
+              <label for="input_text">Email</label>
+            </div>
+            </div>
+          <div class="input-field">
+            <textarea id="textarea2" class="materialize-textarea" data-length="200"></textarea>
+            <label for="textarea2">Textarea</label>
+          </div>
+
+
+          <input type=hidden name="recipient" value="estelambatista@gmail.com">
+          <input type=hidden name="subject" value="Email Site">
+          <input type=hidden name="redirect" value="https://estelamb.github.io/PortfolioMe/">
           <input type="submit" name="Submit" value="Enviar">
           </form>
         </div>
