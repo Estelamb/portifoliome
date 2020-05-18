@@ -24,7 +24,7 @@ Os principais itens utilizados do framework foram estruturas prontas como Navbar
 
 ### VISITAR O PROJETO FINAL
 
-Para verificar como ficou o site, basta acessar o link criado pelo [GitHub Pages](https://estelamb.github.io/portifoliome/).
+Para verificar como ficou o site, basta acessar o link criado pelo [GitHub Pages](https://estelamb.github.io/PortfolioMe/).
 
 
 
