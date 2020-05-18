@@ -11,6 +11,10 @@ p {
   font-size: 1.2em;
 }
 
+h2{
+  text-align: center;
+}
+
 /* Configura de Icones */
 .icon-block {
   padding: 0 15px;
@@ -79,10 +83,6 @@ header{
   margin-bottom: 6em;
 }
 
-.portfolio h2{
-  text-align: center;
-}
-
 /* Configuração Section Contato */
 .contato {
   justify-content: center;
@@ -98,6 +98,12 @@ header{
 /* Configuração Menu Flutuante */
 .btn-floating{
   background-color: #F08080;
+}
+
+.btn-floating:hover{
+  background-color: #CD5C5C;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px whitesmoke;
 }
 
 label{
