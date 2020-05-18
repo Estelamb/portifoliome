@@ -1,7 +1,17 @@
-p {
-  line-height: 2rem;
+/* Configuração Geral da Página */
+body{
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #FFFAFA;
 }
 
+/* Configuração de Texto */
+p {
+  line-height: 2rem;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+/* Configura de Icones */
 .icon-block {
   padding: 0 15px;
 }
@@ -10,15 +20,97 @@ p {
   font-size: inherit;
 }
 
+.material-icons{
+    color: white;
+}
+
+/* Configuração de Entrada da Página */
+header{
+  background-image: url('../img/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: 220vh;
+}
+
+.entradaSobre{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Configuração Texto sendo Escrito */
+.titulo-principal{
+  max-width: 480px;
+}
+
+.titulo-principal:after{
+ content: '|';
+ margin-left: 5px;
+ opacity: 1;
+ animation: pisca .7s infinite;
+}
+
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+/* Configuração Section Sobre */
+.sobre{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 6em;
+  margin-top: 6em;
+  display: flex;
+}
+
+/* Configuração Section Portfólio */
+.portfolio{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 6em;
+}
+
+.portfolio h2{
+  text-align: center;
+}
+
+/* Configuração Section Contato */
+.contato {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 6em;
+}
+
+ .contato form{
+   text-align: right;
+}
+
+/* Configuração Menu Flutuante */
+.btn-floating{
+  background-color: #F08080;
+}
+
+label{
+  color: black;
+}
+
+/* Configuração Footer */
 footer.page-footer {
   margin: 0;
+  background-color: #CD5C5C;
 }
 
-body{
-  font-family: 'Barlow Condensed', sans-serif;
-  background-color: #FFFAFA;
-}
-
+/* Configuração Icones Social Media */
 /* Style all font awesome icons */
 .fa {
   padding: 10px;
@@ -46,109 +138,4 @@ body{
 /* GitHub */
 .fa-github {
   color: white;
-}
-
-.material-icons{
-    color: white;
-}
-
-.entradaSobre{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-header{
-  background-image: url('../img/fundo.jpg');
-  background-repeat: no-repeat;
-  background-size: 220vh;
-}
-
-.btn-floating{
-  background-color: #F08080;
-}
-
-.menu{
-  color: #CD5C5C;
-}
-
-.page-footer{
-  background-color: #CD5C5C;
-}
-
-/* Configuração Texto sendo Escrito */
-.titulo-principal{
-  max-width: 480px;
-}
-
-.titulo-principal:after{
- content: '|';
- margin-left: 5px;
- opacity: 1;
- animation: pisca .7s infinite;
-}
-
-/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
-@keyframes pisca{
-    0%, 100%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-}
-
-/* Configuração Sessão Sobre Mim */
-.sobre{
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 6em;
-  margin-top: 6em;
-  display: flex;
-}
-
-.sobre p{
-  text-align: justify;
-  font-size: 1.2em;
-}
-
-/* Configuração Portfolio */
-.portfolio{
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 6em;
-}
-
-.portfolio p{
-  text-align: justify;
-  font-size: 1.2em;
-}
-
-.portfolio h2{
-  text-align: center;
-}
-
-/* Configuração Contato */
-.contato {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 6em;
-}
- .contato form{
-   text-align: right;
- }
-
- .contato p{
-   text-align: justify;
-   font-size: 1.2em;
- }
-
-/* Configuração Menu Flutuantes */
-label{
-  color: black;
 }
