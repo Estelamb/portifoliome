@@ -108,34 +108,22 @@ label{
 footer.page-footer {
   margin: 0;
   background-color: #CD5C5C;
+  text-align: center;
+}
+
+footer h5{
+  text-align: justify;
 }
 
 /* Configuração Icones Social Media */
-/* Style all font awesome icons */
-.fa {
-  padding: 10px;
-  font-size: 80px;
-  width: 40px;
-  text-align: center;
+footer a{
+  color: whitesmoke;
+  font-size: 4em;
+  transition: text-shadow 0.5s;
+}
+
+footer a:active,
+footer a:hover  {
   text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Facebook */
-.fa-facebook {
-  color: white;
-}
-
-/* Instagram */
-.fa-instagram {
-  color: white;
-}
-
-/* GitHub */
-.fa-github {
-  color: white;
+  text-shadow: 0px 0px 10px whitesmoke;
 }
