@@ -1,27 +1,11 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
 p {
   line-height: 2rem;
-}
-
-.button-collapse {
-  color: #26a69a;
 }
 
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -69,19 +53,24 @@ body{
 }
 
 .entradaSobre{
-  background-color: #FFE4E1;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-nav{
-  background-color: #FFE4E1;
+header{
+  background-image: url('../img/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: 220vh;
 }
 
-.material-icons{
+.btn-floating{
+  background-color: #F08080;
+}
+
+.menu{
   color: #CD5C5C;
 }
 
@@ -158,3 +147,8 @@ nav{
    text-align: justify;
    font-size: 1.2em;
  }
+
+/* Configuração Menu Flutuantes */
+label{
+  color: black;
+}

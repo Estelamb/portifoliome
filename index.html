@@ -19,24 +19,6 @@
 
 <body>
   <header>
-    <!-- Navbar -->
-    <nav role="navigation">
-      <div class="nav-wrapper container">
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#portifolio">Portfólio</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#portifolio">Portfólio</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
-    </nav>
-
     <!-- Entrada do Site -->
     <div class="entradaSobre" id="entrada">
       <div class="section no-pad-bot">
@@ -231,14 +213,26 @@
 
   <!-- Botão Flutuante -->
   <div class="fixed-action-btn">
-    <a class="btn-floating btn-large red lighten-2">
+    <a style="background-color: #CD5C5C; "class="btn-floating btn-large">
       <i class="large material-icons" class="menu">menu</i>
     </a>
     <ul>
-      <li><a class="btn-floating red lighten-3" href="#entrada"><i class="material-icons">home</i></a></li>
-      <li><a class="btn-floating red lighten-3" href="#sobre"><i class="material-icons">format_quote</i></a></li>
-      <li><a class="btn-floating red lighten-3" href="#portifolio"><i class="material-icons">palette</i></a></li>
-      <li><a class="btn-floating red lighten-3" href="#contato"><i class="material-icons">phone</i></a></li>
+      <li>
+        <label for="">Home</label>
+        <a class="btn-floating" href="#entrada"><i class="material-icons">home</i></a>
+      </li>
+      <li>
+        <label for="">Sobre</label>
+        <a class="btn-floating" href="#sobre"><i class="material-icons">format_quote</i></a>
+      </li>
+      <li>
+        <label for="">Portfólio</label>
+        <a class="btn-floating" href="#portifolio"><i class="material-icons">palette</i></a>
+      </li>
+      <li>
+        <label for="">Contato</label>
+        <a class="btn-floating" href="#contato"><i class="material-icons">phone</i></a>
+      </li>
     </ul>
   </div>
 
