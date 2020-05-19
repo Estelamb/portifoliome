@@ -9,6 +9,24 @@ body{
   background-color: #FFFAFA;
 }
 
+/* Scrollbar Chrome */
+::-webkit-scrollbar-thumb {
+  background-color: #cdcdcd;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f0f0f0;
+}
+
+/* ScrollBAR Firefox */
+:root{
+  scrollbar-color: light;
+  scrollbar-width: thin !important;
+}
+
 /* Configuração de Texto */
 p {
   line-height: 2rem;
