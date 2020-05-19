@@ -1,12 +1,13 @@
 /* Fazendo Scroll da Página mais leve */
-html {
-  scroll-behavior: smooth;
+html{
+  scroll-behavior: smooth;
 }
 
 /* Configuração Geral da Página */
 body{
   font-family: 'Barlow Condensed', sans-serif;
   background-color: #FFFAFA;
+  scroll-behavior: smooth;
 }
 
 /* Configuração de Texto */
