@@ -18,7 +18,7 @@ Os principais itens utilizados do framework foram estruturas prontas como Navbar
 
 **CORES:** As cores utilizadas, tanto na formatação do HTML, quanto do CSS, foram retiradas como da tabela base de cores do site [HTML Color Coders](https://htmlcolorcodes.com/color-names/).
 
-**IMAGENS:** Todas as imagens, exceto os icones de contato, que foram baixados de um pack de icones, são de minha autoria.
+**IMAGENS:** Todas as imagens são de minha autoria.
 
 
 
