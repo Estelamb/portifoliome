@@ -59,11 +59,25 @@ header{
 }
 
 .entradaSobre{
-  height: 100vh;
+  height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.entradaSobre h5{
+  margin-top: 4.5em;
+}
+
+.entradaSobre .texto{
+  margin-top: auto;
+}
+
+@media (max-width: 600px) {
+  .entradaSobre h5{
+    margin-top: 0.6em;
+  }
 }
 
 /* Configuração Texto sendo Escrito */
