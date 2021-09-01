@@ -38,6 +38,23 @@ h2{
   text-align: center;
 }
 
+/* Configuração da Navbar */
+nav{
+  background-color: #9575cd;
+}
+
+@media screen and (min-width: 769px){
+  .nav-wrapper ul.center {
+    display: block;
+    width: auto;
+  }
+
+  .nav-wrapper > ul.center li {
+    float: none;
+    display: inline-block;
+  }
+}
+
 /* Configura de Icones */
 .icon-block {
   padding: 0 15px;
@@ -152,6 +169,7 @@ footer.page-footer {
   margin: 0;
   background-color: #CD5C5C;
   text-align: center;
+  height: 4em;
 }
 
 footer h5{
@@ -159,14 +177,14 @@ footer h5{
 }
 
 /* Configuração Icones Social Media */
-footer a{
-  color: whitesmoke;
-  font-size: 4em;
+.gridIcons a{
+  color: black;
+  font-size: 2.5em;
   transition: text-shadow 0.5s;
 }
 
-footer a:active,
-footer a:hover  {
+.gridIcons a:active,
+.gridIcons a:hover  {
   text-decoration: none;
-  text-shadow: 0px 0px 10px whitesmoke;
+  text-shadow: 0px 0px 10px white;
 }
