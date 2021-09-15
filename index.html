@@ -1,46 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Portfólio, Estela</title>
+  <html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+        
+        <!-- CSS Materialize -->
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-  <!-- Icon da Page -->
-  <link rel="shortcut icon" href="img/LogoEstela.ico" type="image/x-icon" />
+        <!-- CSS da Página -->
+        <link rel="stylesheet" href="css/index.css"/>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400&display=swap" rel="stylesheet">
+        <!-- Nome da Página -->
+        <title>Portfólio, Estela</title>
 
-  <!-- Social Media Icons -->
-  <script src="https://kit.fontawesome.com/6d8d9750ed.js" crossorigin="anonymous"></script>
-</head>
+        <!-- Social Media Icons -->
+        <script src="https://kit.fontawesome.com/6d8d9750ed.js" crossorigin="anonymous"></script>
+    </head>
 
-<body>
-  <header>
-    <!-- Entrada do Site -->
-    <div class="entradaSobre" id="entrada">
-      <div class="section no-pad-bot">
-        <div class="row">
-          <!-- Image -->
-          <div class="col s12 m6">
-              <img style="border: 15px solid rgb(205, 92, 92, 0.6)" src="img/estela.jpg" class="circle responsive-img">
-          </div>
-
-          <!-- Texto -->
-          <div class="col s12 m6">
-            <br>
-            <h5 class="header col s12 black-text"> > Olá! Eu sou </h5>
-            <h1 style="color:#CD5C5C" class="titulo-principal">ESTELA MIRANDA </h1>
-            <h5 class="texto">estudante de Ciência da Computação e Aprendiz de Ilustração</h5>
+    <body>
+        <!-- Navbar Lateral -->
+        <ul id="slide-out" class="sidenav sidenav-fixed">
+            <div class="container">
+                <br>
+                <a href="home.html" target="desktop" class="brand-logo"><img src="img/estela.jpg" alt="" class="circle responsive-img"></a>
+                <h1 style="text-align: center;">Estela Miranda Batista</h1>
+            </div>
 
             <div class="gridIcons">
               <ul>
-                <a href="https://www.facebook.com/estela.mirandabatista">
+                <a target="_blank" href="https://www.facebook.com/estela.mirandabatista">
                   <i class="fab fa-facebook"></i>
                 </a>
                 <a target="_blank" href="https://www.instagram.com/estelamirandab">
@@ -54,205 +49,79 @@
                 </a>
               </ul>
             </div>
+        </div>
+
+            <li><a href="formacao.html" target="desktop">Formação</a></li>
+            <li><a href="tecnologias.html" target="desktop">Tecnologias</a></li>
+            <li><a href="hobbies.html" target="desktop">Hobbies</a></li>
+            <li><a href="portfolio.html" target="desktop">Portfólio</a></li>
+        </ul>
+
+          <header>
+            <!-- Navbar Mobile -->
+            <div class="mobileNav">
+                <nav>
+                    <div class="nav-wrapper">
+                      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    </div>
+                </nav>
+        
+                <ul class="sidenav" id="mobile-demo">
+                    <div class="container">
+                        <br>
+                        <img src="img/estela.jpg" alt="" class="circle responsive-img">
+                        <h1 style="text-align: center;">Olá! Eu Sou a Estela,</h1>
+                        <p style="text-align: center;">eu sou estudante de Ciência da Computação e Aprendiz de Ilustração</p>
+          
+                        <div class="gridIcons">
+                          <ul>
+                            <a target="_blank" href="https://www.facebook.com/estela.mirandabatista">
+                              <i class="fab fa-facebook"></i>
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/estelamirandab">
+                              <i class="fab fa-instagram"></i>
+                            </a>
+                            <a target="_blank" href="https://github.com/Estelamb">
+                              <i class="fab fa-github"></i>
+                            </a>
+                            <a target="_blank" href="https://br.linkedin.com/in/estela-miranda-batista-977664174">
+                              <i class="fab fa-linkedin"></i>
+                            </a>
+                          </ul>
+                        </div>
+                    </div>
+        
+                    <br>
+                    <li><a href="formacao.html" target="desktop">Formação</a></li>
+                    <li><a href="tecnologias.html" target="desktop">Tecnologias</a></li>
+                    <li><a href="hobbies.html" target="desktop">Hobbies</a></li>
+                    <li><a href="portfolio.html" target="desktop">Portfólio</a></li>
+                </ul>
+              </div>
+
+            
+            <div class="container">
+              <div id="conteudo" class="conteudo">
+                <br>
+                <iframe src="home.html" scrolling="yes" height="587" width="100%" frameborder="0" name="desktop"></iframe>
+              </div>
+            </div>
+          </header>
+
+          <br>
+          <!-- Footer -->
+          <div class="sumir">
+            <footer>
+              <div class="container">
+                <br>
+                Feito pela Estela ♡
+              </div>
+            </footer>
           </div>
-        </div>
-      </div>
-    </div>
-  </header>
 
-  <!-- Sobre -->
-  <section class="sobre" id="sobre">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m4">
-          <img src="img/sobremimEstela.png">
-          <h2 class="titulo-principal">Sobre Mim </h2>
-        </div>
-
-        <div class="col s12 m8">
-          <p>
-            <b> Muito Prazer! Eu sou a Estela Miranda Batista! Sou estudante de Ciência da Computação na UFV, Campus Florestal. </b>
-          </p>
-
-          <p>
-            Até o momento, durante as disciplinas do curso, eu desenvolvi conhecimento nas linguagens Python,
-            C, Verilog, Java, C++ e MySQL, e de forma autodidata tenho buscado aprender sobre HTML, CSS e Javascript.
-          </p>
-
-          <p>
-            Além das disciplinas cursadas, eu participo de um projeto chamado
-            <a href="http://minascoders.caf.ufv.br/" target="_blank">'MinasCoders'</a>, e atualmente,
-            além de participar, eu me tornei a treinadora das equipes de maratona de programação.
-          </p>
-
-          <!-- Fotos MinasCoders -->
-          <div class="row">
-            <div class="col s6 m6">
-              <img class="materialboxed responsive-img card" src="img/minasCoders1.jpeg">
-            </div>
-
-            <div class="col s6 m6">
-              <img class="materialboxed responsive-img card" src="img//minasCoders3.JPG">
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <p>
-        Porém minha experiência adquirida na universidade não acaba por ai, isso porque atualmente tenho atuado como Bolsista no Projeto de 
-        Iniciação Científica no NuPESSC, em que tenho trabalho com o <a target="_blank" href="http://nupessc.caf.ufv.br/Colminer.html">ColMiner</a>, um sistema que visa ajudar os gerentes de equipes em plataformas
-        como o GitHub.
-      </p>
-
-      <p>
-        Para complementar minha experência, eu sou ilustradora, sendo que
-        meu conhecimento é autodidata, utilizando de softwares como o Adobe Ilustrador e GIMP
-        para fazer os desenhos, e pequenas edições que complementam os desenhos.
-      </p>
-
-      <!-- Demais Experiências -->
-      <p>
-        Por fim, deixo aqui o registro de algumas experiências que tive em eventos, visitas técnicas e maratonas de programação
-        que participei.
-      </p>
-
-      <div class="row">
-        <!-- Primeira Linha -->
-        <div class="col s6 m3">
-          <img class="materialboxed responsive-img card" src="img/evento1.JPG">
-        </div>
-
-        <div class="col s6 m3">
-          <img class="materialboxed responsive-img card" src="img/evento2.jpg">
-        </div>
-
-        <div class="col s6 m3">
-          <img class="materialboxed responsive-img card" src="img/evento3.jpg">
-        </div>
-
-        <div class="col s6 m3">
-          <img class="materialboxed responsive-img card" src="img/evento4.jpg">
-        </div>
-
-        <!-- Segunda Linha -->
-        <div class="col s6 m3">
-          <img class="materialboxed responsive-img card" src="img/evento5.jpg">
-        </div>
-
-        <div class="col s6 m3">
-          <img class="materialboxed responsive-img card" src="img/evento6.jpg">
-        </div>
-
-        <div class="col s6 m3">
-          <img class="materialboxed responsive-img card" src="img/evento7.jpg">
-        </div>
-
-        <div class="col s6 m3">
-          <img class="materialboxed responsive-img card" src="img/maratona.jpg">
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section class="portfolio" id="portifolio">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m4">
-          <img src="img/portfolioEstela.png">
-          <h2 class="titulo-principal">Meu Portfólio </h2>
-        </div>
-
-        <div class="col s12 m8">
-          <div class="row">
-            <br>
-            <div class="col s6 m6">
-              <img class="materialboxed responsive-img card" width="300px" src="img/darkWillow.jpg">
-            </div>
-    
-            <div class="col s6 m6">
-              <img class="materialboxed responsive-img card" width="300px"  src="img/iconeEstela.jpg">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Imagens -->
-    <div class="container">
-      <p>
-        Apesar de ter conhecimento recente sobre ilustração, tenho encontrado formas de desenvolver
-        minha própria forma de desenho, e para isso deixarei aqui as principais artes que tem entrado
-        nessa forma, porém para conhecer mais do meu trabalho, basta acessar meu
-        <a href="https://www.instagram.com/estela_mirandab/" target="_blank">Instagram!</a>
-      </p>
-
-      <div class="row">
-        <div class="col s6 m4">
-          <img class="materialboxed responsive-img card" width="285px"  src="img/Menininha.png">
-        </div>
-
-        <!-- Quarta Linha -->
-        <div class="col s6 m4">
-          <img class="materialboxed responsive-img card" width="300px" src="img/desenhoEstelinha.jpg">
-        </div>
-
-        <div class="col s6 m4">
-          <img class="materialboxed responsive-img card" width="287px" src="img/bonequinha.jpg">
-        </div>
-
-        <!-- Quinta Linha -->
-        <div class="col s6 m4">
-          <img class="materialboxed responsive-img card" width="300px" src="img/designer.jpg">
-        </div>
-
-        <div class="col s6 m4">
-          <img class="materialboxed responsive-img card" width="300px" src="img/phanpy.jpg">
-        </div>
-
-        <div class="col s6 m4">
-          <img class="materialboxed responsive-img card" width="300px" src="img/totoro.jpg">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Botão Flutuante -->
-  <div class="fixed-action-btn">
-    <a style="background-color: #CD5C5C; "class="btn-floating btn-large">
-      <i class="large material-icons" class="menu">menu</i>
-    </a>
-    <ul>
-      <li>
-        <label for="">Home</label>
-        <a class="btn-floating" href="#entrada"><i class="material-icons">home</i></a>
-      </li>
-      <li>
-        <label for="">Sobre</label>
-        <a class="btn-floating" href="#sobre"><i class="material-icons">format_quote</i></a>
-      </li>
-      <li>
-        <label for="">Portfólio</label>
-        <a class="btn-floating" href="#portifolio"><i class="material-icons">palette</i></a>
-      </li>
-    </ul>
-  </div>
-
-
-  <!-- Footer -->
-  <footer class="page-footer">
-    <div class="container">
-      Feito por Estela ♡
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
-</html>
+        <!--JavaScript CSS -->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+  </html>

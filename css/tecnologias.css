@@ -1,0 +1,19 @@
+.linguagens img, .linguagens p{
+    float: left;
+}
+
+.linguagens p{
+    margin-left: 4em;
+}
+
+.linguagens .determinate{
+    background-color: #9575cd;
+}
+
+.linguagens .progress{
+    background-color: #d1c4e9;
+}
+
+h1{
+    margin-top: 0.5em;
+}

@@ -1,0 +1,114 @@
+/* Configuração Página*/
+header .container{
+    width: 90%;
+}
+
+/* SideNav fixed */
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+}
+
+.sidenav h1{
+    font-size: 26px;
+}
+
+.sidenav{
+    background-color: #ede7f6;
+}
+
+.sidenav li{
+    color: white;
+}
+
+nav{
+    background-color: #9575cd;
+    height: 4.8em;
+}
+
+/* Scrollbar Chrome */
+::-webkit-scrollbar-thumb {
+    background-color: #cdcdcd;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Scrollbar Firefox */
+  :root{
+    scrollbar-color: light;
+    scrollbar-width: thin !important;
+  }
+
+/* Deixar a Navbar Mobile */
+@media only screen and (min-width: 600px) {
+    .mobileNav{ 
+        display: none !important;
+    }
+
+    .mobile{ 
+        display: none !important;
+    }
+
+    .sumir{ 
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    iframe{
+        height: 600px;
+    }
+}
+
+/* Configuração Icones Social Media */
+.gridIcons{
+    margin-left: 5em;
+}
+
+@media screen and (max-width: 600px){
+    .gridIcons{
+        margin-left: 5em;
+    }
+}
+
+.gridIcons a{
+    color: black;
+    font-size: 2em;
+    transition: text-shadow 0.5s;
+  }
+  
+  .gridIcons a:active,
+  .gridIcons a:hover  {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px whitesmoke;
+  }
+
+
+/* Configuração dos Textos e Imagens */
+h1{
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p{
+    text-align: justify;
+}
+
+ /* Configuração do Footer */
+ footer{
+    text-align: center;
+    background-color: #9575cd;
+    height: 4em;
+    color: white;
+    font-size: 12px;
+}
