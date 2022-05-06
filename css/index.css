@@ -1,113 +1,175 @@
 /* Configuração Página*/
-header .container{
+
+header .container {
     width: 90%;
 }
 
+
+/* Instalando Fontes Novas */
+
+@font-face {
+    font-family: 'skrapbook';
+    src: url('../fonts/Skrapbook.eot');
+    src: url('../fonts/Skrapbook.woff') format('woff'), url('../fonts/Skrapbook.woff2') format('woff2');
+}
+
+
 /* SideNav fixed */
-header, main, footer {
+
+header,
+main,
+footer {
     padding-left: 300px;
 }
 
-@media only screen and (max-width : 992px) {
-    header, main, footer {
-      padding-left: 0;
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
     }
 }
 
-.sidenav h1{
+.sidenav h1 {
     font-size: 26px;
 }
 
-.sidenav{
-    background-color: #ede7f6;
+.sidenav h2 {
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
 }
 
-.sidenav li{
+.sidenav {
+    background-color: #FFE6ED;
+}
+
+.sidenav li {
     color: white;
 }
 
-nav{
-    background-color: #9575cd;
+nav {
+    background-color: #C65978;
     height: 4.8em;
 }
 
+
 /* Scrollbar Chrome */
+
 ::-webkit-scrollbar-thumb {
     background-color: #cdcdcd;
     border: 1px solid transparent;
     background-clip: padding-box;
-  }
-  
-  ::-webkit-scrollbar {
+}
+
+ ::-webkit-scrollbar {
     width: 8px;
     background-color: #f0f0f0;
-  }
-  
-  /* Scrollbar Firefox */
-  :root{
+}
+
+
+/* Scrollbar Firefox */
+
+ :root {
     scrollbar-color: light;
     scrollbar-width: thin !important;
-  }
+}
+
 
 /* Deixar a Navbar Mobile */
+
 @media only screen and (min-width: 600px) {
-    .mobileNav{ 
+    .mobileNav {
         display: none !important;
     }
-
-    .mobile{ 
+    .mobile {
         display: none !important;
     }
-
-    .sumir{ 
+    .sumir {
         display: none !important;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    iframe{
+    iframe {
         height: 700px;
     }
 }
 
+
 /* Configuração Icones Social Media */
-.gridIcons{
+
+.gridIcons {
     margin-left: 5em;
 }
 
-@media screen and (max-width: 600px){
-    .gridIcons{
+@media screen and (max-width: 600px) {
+    .gridIcons {
         margin-left: 5em;
     }
 }
 
-.gridIcons a{
+.gridIcons a {
     color: black;
     font-size: 2em;
     transition: text-shadow 0.5s;
-  }
-  
-  .gridIcons a:active,
-  .gridIcons a:hover  {
+}
+
+.gridIcons a:active,
+.gridIcons a:hover {
     text-decoration: none;
-    text-shadow: 0px 0px 10px whitesmoke;
-  }
+    text-shadow: 0px 0px 10px #D55061;
+}
 
 
 /* Configuração dos Textos e Imagens */
-h1{
-    font-size: 45px;
-    font-family: 'Dancing Script', cursive;
+
+h1 {
+    font-size: 35px;
+    font-family: skrapbook;
+    margin-top: 2px;
 }
 
-p{
+h2 {
+    font-family: skrapbook;
+}
+
+h4 {
+    font-family: skrapbook;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+p {
+    font-family: 'Livvic', sans-serif;
     text-align: justify;
 }
 
- /* Configuração do Footer */
- footer{
+.imagemIcone {
+    float: left;
+    margin-right: 5px;
+    height: 40px;
+    margin-left: 0.2em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: text-shadow 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #D55061;
+}
+
+
+/* Configuração do Footer */
+
+footer {
     text-align: center;
-    background-color: #9575cd;
+    background-color: #C65978;
     height: 4em;
     color: white;
     font-size: 12px;
